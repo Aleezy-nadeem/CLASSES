@@ -1,0 +1,74 @@
+#include<iostream>
+using namespace std;
+class CALC
+{
+	public:
+	void add()
+	{
+		int a,b;
+		cout<<"Enter two numbers for addition:"<<endl;
+		cout<< "Enter First Number:";
+		cin>>a;
+			cout<<"Enter Second Number:";
+		cin>>b;
+	
+		int sum=a+b;
+		cout<<"result:"<<sum<<endl;;
+		
+		
+	}
+	void sub()
+	{
+		int a,b;
+		cout<<"enter two numbers for sutraction:"<<endl;
+		cout<< "Enter First Number:";
+		cin>>a;
+			cout<<"Enter Second Number:";
+		cin>>b;
+		
+		
+		int sub=a-b;
+		cout<<"result:"<<sub<<endl;
+		
+	}
+	void multi()
+	{
+		//multi is the keyword of multiply
+		int a,b;
+		cout<<"Enter Two Numbers for Multiplication:"<<endl;
+		cout<< "Enter First Number:";
+		cin>>a;
+		cout<<"Enter Second Number:";
+		cin>>b;
+		int multi=a*b;
+		cout<<"Result: "<<multi<<endl;
+		
+	}
+	void div()
+	{
+		//div is the keyword of divide
+		int a,b;
+		cout<<"enter two numbers for division:"<<endl;
+		cout<<"enter first number:";
+        cin>>a;
+        cout<<"enter second number:";
+        cin>>b;
+		int div=a/b;
+		cout<<"result:"<<div<<endl;
+		
+	}
+	
+};
+int main()
+{
+
+
+CALC c1;
+c1.add();
+c1.sub();
+c1.multi();
+c1.div();
+
+return 0;
+}
+
